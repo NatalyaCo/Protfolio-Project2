@@ -1,6 +1,6 @@
 body {
     display: block;
-   
+
     background-color: #55aae2;
 }
 
@@ -13,9 +13,9 @@ body {
 }
 
 .header h1 {
-    
+
     color: #1b0b53;
-    font-size: 48px;
+    font-size: 100px;
 }
 
 .header h1 .seo {
@@ -27,7 +27,7 @@ body {
     margin-right: 20px;
     color: #1b0b53;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 30px;
+    font-size: 88px;
 }
 
 .header div ul {
@@ -39,22 +39,25 @@ body {
     float: right;
     margin-left: 25px;
     color: brown;
-    
-    
+    padding: 22px;
+
+
 }
 
 a {
-    color:#0c0c01;
+    color: #0c0c01;
     text-decoration: none;
+    font-size: 88px;
+    
 }
 
 p {
     color: #0c0c01;
-    font-size: 26px;
+    font-size: 77px;
 }
 
 .hero {
-    height: 800px;
+    height: 1500px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/RR_smaller.jpg");
@@ -68,10 +71,10 @@ p {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 77px;
     color: rgb(31, 19, 2);
-  }
+}
 
 .float-left {
     float: left;
@@ -83,22 +86,24 @@ p {
     margin-left: 25px;
 }
 
- 
+
 
 .content {
     width: 100%;
-    display:block;
-
-
-
-
+    display: block;
 }
 
+button {
+    color: burlywood;
+    font-size: 44px;
+    height: 211px;
+    width: 511px;
+    padding: 30px;
+}
 
-
-
+/* 
 .benefits {
-    
+
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -108,13 +113,19 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #6ca4b3;
 }
-
-
+ */
+ .container {
+    display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+ 
+ }
 
 .about-me {
 
     display: block;
-    
+
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -123,6 +134,14 @@ p {
     color: #0c0c01;
 }
 
+.cards {
+    
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding:20px;
+
+ }
+
 .work {
 
     display: block;
@@ -130,7 +149,7 @@ p {
     padding: 50px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #696938;
-    color:#0c0c01;
+    color: #0c0c01;
 }
 
 .contact-me {
@@ -138,76 +157,64 @@ p {
     display: block;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #696938;
-    color:#0c0c01 ;
-    
+    color: #0c0c01;
+
 }
 
 .about-me img {
-    max-height:fit-content;
-    border: 5px; color: black; 
+    max-height: fit-content;
+    border: 5px;
+    color: black;
     padding: 11px;
-    box-shadow:0 4px 8px 0 rgba(20, 5, 5, 0.603);
+    box-shadow: 0 4px 8px 0 rgba(20, 5, 5, 0.603);
     transition: 0.3s;
     border-radius: 17%;
 
 }
 
 .work img {
-    
+
     padding: 11px;
     box-shadow: 0 4px 8px 0 rgba(20, 5, 5, 0.603);
     transition: 0.3s;
     border-radius: 17%;
 
 }
+
 .contact-me img {
-        max-height: 270px;
-        border: 5px; color: black; 
-        padding: 11px;
-        box-shadow: 0 4px 8px 0 rgba(20, 5, 5, 0.603);
-        transition: 0.3s;
-        border-radius: 17%;
-    
-}
-
-.dog img {
-
-    height: 270px;
-    min-width: 100%;
-    border: 5px; color: black; 
+    max-height: 270px;
+    border: 5px;
+    color: black;
     padding: 11px;
     box-shadow: 0 4px 8px 0 rgba(20, 5, 5, 0.603);
     transition: 0.3s;
     border-radius: 17%;
 
-
 }
 
 
+article {
+    border-bottom: 1px solid #13293d;
+}
 
 
-  article {
-      border-bottom: 1px solid #13293d;
-  }
-  
- 
 
 
 .card {
-    
-    
-    flex-direction: row;
+
+    padding: 20px;
     box-shadow: 0 4px 8px 0 rgba(20, 5, 5, 0.603);
     transition: 0.3s;
-  }
-  
-  
-  .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
-  
+    flex: 0 1 24%;
+}
 
-  
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+
 
 ol {
     display: block;
@@ -220,14 +227,16 @@ ol {
     margin-left: 50px;
     margin-right: 0;
     padding-left: 40px;
-    
-  }
+
+}
 
 
 
-.about-me h2, .work h2, .contact-me h2 {
+.about-me h2,
+.work h2,
+.contact-me h2 {
     margin-bottom: 20px;
-    font-size: 36px;
+    font-size: 66px;
 }
 
 .footer {
