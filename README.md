@@ -24,4 +24,6 @@ In order to test open the console and run the following:
 ### Questions:
 If you have any questions contact me on [GitHub](https://github.com/natalyaco) or contact 
 Natalya C at natalya.c2022@yahoo.com  
- 
+
+
+ ![Screenshot (270)](https://user-images.githubusercontent.com/99770212/177412075-fc589b83-ac68-4f19-966c-437d074d51e1.png)
